@@ -1,0 +1,300 @@
+.page{
+    color: #181818;
+}
+
+.bg-mine{
+    background-color: rgb(248, 181, 57);
+}
+
+.work ,.customer{
+    margin-top: 4rem;
+}
+
+.choose{
+    margin-top: 6rem;
+}
+
+.hero{
+    width: 100%;
+    background-color: #f2eedf;
+    min-height: 93vh;
+}
+
+.hero-text{
+    max-width: 40%;
+}
+
+@media (max-width: 720px) {
+    .hero-text{
+        padding: 20px;
+        min-width: 100%;
+    }
+
+    .hero-image{
+        display: none;
+    }
+}
+
+.right{
+    max-height: 70%;
+}
+
+.comcard{
+    min-width: 10rem;
+    max-width: 19rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    background-color: aliceblue;
+    padding: 15px;
+}
+
+.wcs-card{
+    min-width: 10rem;
+    max-width: 25rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    background-color: aliceblue;
+    padding: 25px;
+}
+
+.card2{
+    background-color: #f2eedf;
+    color: black;
+}
+
+.h-title{
+    font-size: 50px;
+}
+
+.cta-button{
+    border: none;
+    font-weight: 600;
+    transition: all 0.5s;
+    padding: 2%;
+}
+
+.cta-button:hover{
+    transform: translateY(-3px);
+    cursor: pointer;
+}
+
+
+.hero-image{
+    max-width: 35%;;
+}
+
+.img-bg{
+   width: 100%;
+   height: 100%;
+}
+
+.customer{
+    width: 100%;
+    background-color: #f2eedf;
+    min-height: 45rem;
+}
+
+.feedback-cards{
+    margin-top: 12vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 3rem;
+}
+
+.feedback-card{
+    position: relative;
+    width: 30%;
+
+    background-color: aliceblue;
+    height: 30vw;
+    padding-top: 4vw;
+    font-size: 1vw;
+}
+
+.quote{
+    max-width: 20%;
+}
+
+@media (max-width: 950px) {
+
+    .h-title{
+        font-size: 30px;
+    }
+
+    .feedback-cards{
+        margin-top: 12vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .feedback-card{
+        position: relative;
+        min-width: 20rem;
+        max-width: 25rem;
+        background-color: aliceblue;
+        height: 25rem;
+        padding-top: 4.5rem;
+        font-size: 15px;
+    }
+  }
+
+.user-img {
+    width: 30%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top: -15%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .contact-page{
+    padding: 15px;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .contact-desc{
+    max-width: 40%;
+    font-size: 1vw;
+    min-height: fit-content;
+    max-height: fit-content;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    padding-bottom: 3rem;
+  }
+
+  .form-row{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .feedback-img{
+    max-width: 30%;
+    display: flex;
+    align-items: center;
+  }
+
+  .custom-input{
+    border: 1px solid rgb(195, 193, 193);
+    padding-block: 10px;
+    padding-inline: 16px;
+    border-radius: 6px;
+  }
+
+  .custom-input{
+    color:#171717;
+  }
+
+  .custom-input::placeholder{
+    color: rgb(205, 201, 201);
+  }
+
+.custom-label{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+@media (max-width: 940px) {
+    .feedback-img{
+        display: none;
+    }
+
+    .contact-desc{
+        max-width: 100%;
+        font-size: 100%;
+    }
+
+}
+
+.custom-text{
+    min-height: 6rem;
+}
+
+.animateType{
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid;
+    animation: typing 2s steps(10)  infinite alternate , blink 1s infinite;
+}
+
+@keyframes typing {
+    from{
+        width:0%;
+    }
+
+    to{
+        width:12ch;
+    }
+    
+}
+
+@keyframes blink {
+    50%{
+        border-color: transparent;
+    }
+}
+
+.scrollFadeAnimate{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+
+.scrollSlideLeftAnimate{
+    animation: slideLeft linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+
+.scrollSlideRightAnimate{
+    animation: slideRight linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+
+@keyframes appear {
+    
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+
+}
+
+@keyframes slideLeft {
+    
+    from{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes slideRight {
+    
+    from{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
