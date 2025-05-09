@@ -86,7 +86,7 @@ function Home() {
             <h2 className='mt-3'>Person 1</h2>
             <p className='text-muted'>Board Director</p>
             <img src="/icons/quotation-mark.png" className='quote mb-4' alt="" />
-            <p className='text-muted'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos incidunt est blanditiis cum, magnam recusandae, quas laudantium voluptas quibusdam vero sunt atque, nihil officiis voluptatibus.</p>
+            <p className='text-muted'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos incidunt est blanditiis cum, magnam recusandae, quas laudantium voluptas quibusdam vero sunt atque, nihil officiis voluptatibus....</p>
           </div>
 
           <div className='pb-3 px-5 text-center feedback-card shadow'>
@@ -94,7 +94,7 @@ function Home() {
             <h2 className='mt-3'>Person 2</h2>
             <p className='text-muted'>Board Director</p>
             <img src="/icons/quotation-mark.png" className='quote mb-4' alt="" />
-            <p className='text-muted'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos incidunt est blanditiis cum, magnam recusandae, quas laudantium voluptas quibusdam vero sunt atque, nihil officiis voluptatibus.</p>
+            <p className='text-muted'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos incidunt est blanditiis cum, magnam recusandae, quas laudantium voluptas quibusdam vero sunt atque, nihil officiis voluptatibus....</p>
           </div>
 
           <div className='pb-3 px-5 text-center feedback-card shadow'>
@@ -102,7 +102,7 @@ function Home() {
             <h2 className='mt-3'>Person 3</h2>
             <p className='text-muted'>Board Director</p>
             <img src="/icons/quotation-mark.png" className='quote mb-4' alt="" />
-            <p className='text-muted'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos incidunt est blanditiis cum, magnam recusandae, quas laudantium voluptas quibusdam vero sunt atque, nihil officiis voluptatibus.</p>
+            <p className='text-muted'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos incidunt est blanditiis cum, magnam recusandae, quas laudantium voluptas quibusdam vero sunt atque, nihil officiis voluptatibus....</p>
           </div>
         </div>
       </div>

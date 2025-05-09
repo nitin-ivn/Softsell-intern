@@ -2,7 +2,7 @@ import './Home.css'
 
 function ContactForm() {
   return (
-    <div className='contact-page mt-5 scrollSlideRightAnimate mb-5'>
+    <div className='contact-page mt-5 scrollSlideLeftAnimate mb-5'>
         <div className='contact-desc rounded shadow'>
             <p className='h-title'><strong>Contact</strong> <span style={{color: "orange"}}>Us</span></p>
             <p className='text-muted'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic officiis delectus et laudantium commodi!</p>
