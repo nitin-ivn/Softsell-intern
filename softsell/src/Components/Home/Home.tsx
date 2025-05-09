@@ -22,20 +22,20 @@ function Home() {
           <h2 className='text-center'><strong>How</strong> It Works</h2>
         </div>
         <div className='cards scrollFadeAnimate mt-4 d-flex flex-column flex-sm-row align-items-center gap-3 justify-content-evenly'>
-          <div className='card1 comcard'>
+          <div className='card1 comcard shadow'>
             <div className="d-flex justify-content-center"><img src="/HIW/inbox.png" className='img-fluid' alt="" /></div>
             <h2 className="text-center">Upload</h2>
             <p className='text-center'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam tempora nostrum quo?</p>
           </div>
 
-          <div className='card2 comcard'>
+          <div className='card2 comcard shadow'>
             <div className="d-flex justify-content-center"><img src="/HIW/validation.png" className='img-fluid' alt="" /></div>
             <h2 className="text-center">Validation</h2>
             <p className='text-center'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam tempora nostrum quo?</p>
           </div>
 
           
-          <div className='card1 comcard'>
+          <div className='card1 comcard shadow'>
             <div className="d-flex justify-content-center"><img src="/HIW/pay.png" className='img-fluid' alt="" /></div>
             <h2 className="text-center">Get Paid</h2>
             <p className='text-center'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam tempora nostrum quo?</p>
@@ -51,20 +51,20 @@ function Home() {
         </div>
 
         <div className='wcs-cards scrollSlideLeftAnimate mt-4 d-flex flex-column flex-sm-row align-items-center gap-3 justify-content-evenly'>
-          <div className='card2 wcs-card'>
+          <div className='card2 wcs-card shadow'>
             <div className="d-flex justify-content-center"><img src="/WCS/fast-time.png" className='img-fluid' alt="" /></div>
             <h2 className="text-center">Upload</h2>
             <p className='text-center'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam tempora nostrum quo?</p>
           </div>
 
-          <div className='wcs-card'>
+          <div className='wcs-card shadow'>
             <div className="d-flex justify-content-center"><img src="/WCS/protection.png" className='img-fluid' alt="" /></div>
             <h2 className="text-center">Validation</h2>
             <p className='text-center'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam tempora nostrum quo?</p>
           </div>
 
           
-          <div className='card2 wcs-card'>
+          <div className='card2 wcs-card shadow'>
             <div className="d-flex justify-content-center"><img src="/WCS/safety.png" className='img-fluid' alt="" /></div>
             <h2 className="text-center">Get Paid</h2>
             <p className='text-center'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam tempora nostrum quo?</p>
@@ -81,7 +81,7 @@ function Home() {
         </div>
 
         <div className='feedback-cards scrollFadeAnimate'>
-          <div className='pb-3 px-5 text-center feedback-card '>
+          <div className='pb-3 px-5 text-center feedback-card shadow'>
             <img src="/CR/user1.jpg" className='user-img' alt="" />
             <h2 className='mt-3'>Person 1</h2>
             <p className='text-muted'>Board Director</p>
@@ -89,7 +89,7 @@ function Home() {
             <p className='text-muted'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos incidunt est blanditiis cum, magnam recusandae, quas laudantium voluptas quibusdam vero sunt atque, nihil officiis voluptatibus.</p>
           </div>
 
-          <div className='pb-3 px-5 text-center feedback-card '>
+          <div className='pb-3 px-5 text-center feedback-card shadow'>
             <img src="/CR/user2.jpg" className='user-img' alt="" />
             <h2 className='mt-3'>Person 2</h2>
             <p className='text-muted'>Board Director</p>
@@ -97,7 +97,7 @@ function Home() {
             <p className='text-muted'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos incidunt est blanditiis cum, magnam recusandae, quas laudantium voluptas quibusdam vero sunt atque, nihil officiis voluptatibus.</p>
           </div>
 
-          <div className='pb-3 px-5 text-center feedback-card '>
+          <div className='pb-3 px-5 text-center feedback-card shadow'>
             <img src="/CR/user3.webp" className='user-img' alt="" />
             <h2 className='mt-3'>Person 3</h2>
             <p className='text-muted'>Board Director</p>

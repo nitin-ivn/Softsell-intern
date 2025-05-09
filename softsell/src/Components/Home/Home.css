@@ -50,6 +50,7 @@
 .wcs-card{
     min-width: 10rem;
     max-width: 25rem;
+    border-radius: 6px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
     background-color: aliceblue;
     padding: 25px;
@@ -101,6 +102,7 @@
 }
 
 .feedback-card{
+    border-radius: 8px;
     position: relative;
     width: 30%;
 

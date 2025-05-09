@@ -3,7 +3,7 @@ import './Home.css'
 function ContactForm() {
   return (
     <div className='contact-page mt-5 scrollSlideRightAnimate mb-5'>
-        <div className='contact-desc'>
+        <div className='contact-desc rounded shadow'>
             <p className='h-title'><strong>Contact</strong> <span style={{color: "orange"}}>Us</span></p>
             <p className='text-muted'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic officiis delectus et laudantium commodi!</p>
             <div className='contact-form'>
@@ -44,10 +44,10 @@ function ContactForm() {
 
                     <div className='d-flex flex-column gap-2'>
                         <label htmlFor="" className='custom-label'>Query</label>
-                        <textarea className='custom-text' name="" id=""></textarea>
+                        <textarea className='custom-text rounded' name="" id=""></textarea>
                     </div>
 
-                    <button className='cta-button bg-mine text-light mt-4'>Submit</button>
+                    <button className='cta-button rounded bg-mine text-light mt-4'>Submit</button>
                 </form>
             </div>
         </div>
