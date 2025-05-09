@@ -6,7 +6,7 @@ function Home() {
     <div className="page">
       <div className='hero d-flex flex-row justify-content-evenly align-items-center'>
         <div className='hero-text'>
-          <p className='h-title'>License Validation<strong className='animateType'>Made Simple</strong></p>
+          <p className='h-title'>License Validation<strong className='animateType'>Made Simple.</strong></p>
           <p className='mt-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus voluptatibus modi saepe delectus tempora ducimus.</p>
           <button className='cta-button bg-dark mt-3 text-light rounded'>Get A Quote</button>
         </div>
