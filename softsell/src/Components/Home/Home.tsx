@@ -23,20 +23,20 @@ function Home() {
         </div>
         <div className='cards scrollFadeAnimate mt-4 d-flex flex-column flex-sm-row align-items-center gap-3 justify-content-evenly'>
           <div className='card1 comcard'>
-            <div className="d-flex justify-content-center"><img src="/inbox.png" className='img-fluid' alt="" /></div>
+            <div className="d-flex justify-content-center"><img src="/HIW/inbox.png" className='img-fluid' alt="" /></div>
             <h2 className="text-center">Upload</h2>
             <p className='text-center'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam tempora nostrum quo?</p>
           </div>
 
           <div className='card2 comcard'>
-            <div className="d-flex justify-content-center"><img src="/validation.png" className='img-fluid' alt="" /></div>
+            <div className="d-flex justify-content-center"><img src="/HIW/validation.png" className='img-fluid' alt="" /></div>
             <h2 className="text-center">Validation</h2>
             <p className='text-center'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam tempora nostrum quo?</p>
           </div>
 
           
           <div className='card1 comcard'>
-            <div className="d-flex justify-content-center"><img src="/pay.png" className='img-fluid' alt="" /></div>
+            <div className="d-flex justify-content-center"><img src="/HIW/pay.png" className='img-fluid' alt="" /></div>
             <h2 className="text-center">Get Paid</h2>
             <p className='text-center'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam tempora nostrum quo?</p>
           </div>
@@ -52,20 +52,20 @@ function Home() {
 
         <div className='wcs-cards scrollSlideLeftAnimate mt-4 d-flex flex-column flex-sm-row align-items-center gap-3 justify-content-evenly'>
           <div className='card2 wcs-card'>
-            <div className="d-flex justify-content-center"><img src="/fast-time.png" className='img-fluid' alt="" /></div>
+            <div className="d-flex justify-content-center"><img src="/WCS/fast-time.png" className='img-fluid' alt="" /></div>
             <h2 className="text-center">Upload</h2>
             <p className='text-center'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam tempora nostrum quo?</p>
           </div>
 
           <div className='wcs-card'>
-            <div className="d-flex justify-content-center"><img src="/protection.png" className='img-fluid' alt="" /></div>
+            <div className="d-flex justify-content-center"><img src="/WCS/protection.png" className='img-fluid' alt="" /></div>
             <h2 className="text-center">Validation</h2>
             <p className='text-center'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam tempora nostrum quo?</p>
           </div>
 
           
           <div className='card2 wcs-card'>
-            <div className="d-flex justify-content-center"><img src="/safety.png" className='img-fluid' alt="" /></div>
+            <div className="d-flex justify-content-center"><img src="/WCS/safety.png" className='img-fluid' alt="" /></div>
             <h2 className="text-center">Get Paid</h2>
             <p className='text-center'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam tempora nostrum quo?</p>
           </div>
@@ -82,7 +82,7 @@ function Home() {
 
         <div className='feedback-cards scrollFadeAnimate'>
           <div className='pb-3 px-5 text-center feedback-card '>
-            <img src="user1.jpg" className='user-img' alt="" />
+            <img src="/CR/user1.jpg" className='user-img' alt="" />
             <h2 className='mt-3'>Person 1</h2>
             <p className='text-muted'>Board Director</p>
             <img src="/icons/quotation-mark.png" className='quote mb-4' alt="" />
@@ -90,7 +90,7 @@ function Home() {
           </div>
 
           <div className='pb-3 px-5 text-center feedback-card '>
-            <img src="user2.jpg" className='user-img' alt="" />
+            <img src="/CR/user2.jpg" className='user-img' alt="" />
             <h2 className='mt-3'>Person 2</h2>
             <p className='text-muted'>Board Director</p>
             <img src="/icons/quotation-mark.png" className='quote mb-4' alt="" />
@@ -98,7 +98,7 @@ function Home() {
           </div>
 
           <div className='pb-3 px-5 text-center feedback-card '>
-            <img src="user3.webp" className='user-img' alt="" />
+            <img src="/CR/user3.webp" className='user-img' alt="" />
             <h2 className='mt-3'>Person 3</h2>
             <p className='text-muted'>Board Director</p>
             <img src="/icons/quotation-mark.png" className='quote mb-4' alt="" />
